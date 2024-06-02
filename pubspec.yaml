@@ -1,0 +1,35 @@
+name: community_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^4.17.4
+  firebase_app_check: ^0.2.2+6
+  firebase_auth: ^4.19.5
+  firebase_core: ^2.31.0
+  firebase_storage: ^11.7.6
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  flutter_svg: ^2.0.10+1
+  image_picker: ^1.1.2
+  riverpod: ^2.5.1
+  riverpod_lint: ^2.3.10
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/svg/
+
